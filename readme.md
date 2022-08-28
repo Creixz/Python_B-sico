@@ -33,12 +33,8 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 
 - Para utilizar condiciones se sigue la siguiente estructura:
 `if numero > 5:` no se utiliza paréntesis y al colocar la condición debe dejarse 4 espacios.
-- Se puede usar `elif numero == 5` si es que hay más condiciones que se pueden evaluar.
+- Se puede usar `elif numero == 5:` si es que hay más condiciones que se pueden evaluar.
 - Se pueden colocar como condición `pass` si es que no se tiene alguna condición específica o se decia dejar asi por el momento.
-
-## Cadena de caracteres de varias lineas
-
-- Python puede entender y respetar tus string respetando las lineas que haz utilizado si utilizas la triple comilla doble.
 
 ## Funciones de Python
 
@@ -60,3 +56,16 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
     def print_lyrics(**argumento**):  
         print("Todo estará bienx2.")
 ```
+
+## Trabajando con texto
+
+- Python puede entender y respetar tus string respetando las lineas que haz utilizado si utilizas la triple comilla doble. (varias lineas de caracteres)
+- Utilizando el método `nombre.upper()` para colocar todo el texto en mayúsculas.
+- Utilizando el método `nombre.capitalize()` para solo colocar el mayúscula la primera letra del texto.
+- Utilizando el método `nombre.strip()` elimina los espacios entre texto.
+- utilizando el método `nombre.lower()` para colocar todo el texto en minúscula.
+- Utilizando el método `nombre.replace('letra_a_reemplazar','letra_que_reemplaza')` reemplaza una letra por otra en todo el texto.
+- Puedo obtener cualquier caracter de un texto con los índices `nombre[n]` donde n empieza en 0.
+- Puedo determinar la longitud o la cantidad de caracteres que tiene mi texto, se usa la función `len(nombre)`.
+
+
