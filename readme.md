@@ -4,17 +4,17 @@
 
 ## Operadores Matemáticos en python
 
-- En pyhton se usan los operadores +, - , x, / para las 4 operaciones fundamentales.
+- En python se usan los operadores `+, - , x, /` para las 4 operaciones fundamentales.
 - En python si multiplicamos una cadena por un número se repite la cadena sin espacios tantas veces como número se haya indicado.
 - Se puede concatenar cadenas de texto con el operador +
 - Python no acepta la coma como separador de un decimal.
 - En python los valores booleanos son: True y False. (Empieza con mayúscula)
 
-## COnversión
+## Conversión
 
 - Se sabe que cuando se ingresa el siguiente código:
  `numero = input("Escribe un numero: ")`
-el tipo de variable que se almacena es String, por lo que para converir a integer se usa:
+el tipo de variable que se almacena es String, por lo que para convertir a integer se usa:
  `numero = int(numero)`
 - Para convertir un entero o float a un string se usa:
     `numero = str(numero)`
@@ -28,3 +28,9 @@ el tipo de variable que se almacena es String, por lo que para converir a intege
 - Para comparar, es decir, saber si el contenido de dos variables es el mismo, se usar `==` que te devuelve un booleano.
 - Para comparar de forma negativa, es decir si el contenido de dos variables es diferente se usa `!=` y devuelve un booleano.
 - Para comparaciones de mayor, menor y/o igual se usar `< >` y de igual manera te devuelve un booleano. 
+
+## Condicionales
+
+- Para utilizar condiciones se sigue la siguiente estructura:
+`if numero > 5:` no se utiliza paréntesis y al colocar la condición debe dejarse 4 espacios.
+- Se puede usar `elif numero == 5` si es que hay más condiciones que se pueden evaluar.
