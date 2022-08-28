@@ -34,3 +34,29 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - Para utilizar condiciones se sigue la siguiente estructura:
 `if numero > 5:` no se utiliza paréntesis y al colocar la condición debe dejarse 4 espacios.
 - Se puede usar `elif numero == 5` si es que hay más condiciones que se pueden evaluar.
+- Se pueden colocar como condición `pass` si es que no se tiene alguna condición específica o se decia dejar asi por el momento.
+
+## Cadena de caracteres de varias lineas
+
+- Python puede entender y respetar tus string respetando las lineas que haz utilizado si utilizas la triple comilla doble.
+
+## Funciones de Python
+
+- Son piezas de código reutilizables que reciben arguementos como input para realizar algunos cálculos y luego devolver uno o más resultados.
+- Existen dos tipos de funciones:
+    1. Funciones incorporadas: Son aquellas que son parte de Python como `print()`, `type()`, `float()`, etc.
+    2. Funciones que nosotros definimos: Tratamos a los nombres de las funciones como "nuevas" palabras reservadas, es decir, ya no
+    se pueden usar como variables.
+- Para definir una variable se usa la palabra reservada `def`.
+- Una vez que la hemos definido podremos llamarla o invocarla todas las veces que querramos.
+- Cuando se define una función **recordar** que eso no ejecuta la función:  
+```
+    def print_lyrics():  
+        print("Todo estará bien.")
+```
+-
+- Un parámetro es una variable que utilizamos en la definición de la función y esto permite al código de la función acceder a los argumentos para realizar cálculos.  
+```
+    def print_lyrics(**argumento**):  
+        print("Todo estará bienx2.")
+```
