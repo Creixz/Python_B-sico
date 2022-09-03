@@ -67,5 +67,7 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - Utilizando el método `nombre.replace('letra_a_reemplazar','letra_que_reemplaza')` reemplaza una letra por otra en todo el texto.
 - Puedo obtener cualquier caracter de un texto con los índices `nombre[n]` donde n empieza en 0.
 - Puedo determinar la longitud o la cantidad de caracteres que tiene mi texto, se usa la función `len(nombre)`.
+- Puedo cortar una parte de una cadena de texto con `nombre[nro_caracterinicial, nro_caracterantesfinal,(opcional)nro_cadacuantosespacios]` ys no se pone nada en el primer espacio por defecto es cero, en el segundo es el ultimo, y en el tercero es 1.
+- Si pongo negativo al final significa que empezará desde el final y devolverá la palabra inversa `nombre[::-1]`.
 
 
