@@ -89,3 +89,9 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - Para insertar un elemento específico en un índice específico usamos: `lista.insert(elemento,indice)`.
 - Para saber cuantas veces se repite un elemento en una lista se usa: `lista.count(elemento)`.
 - Para invertir el orden de los elementos de una lista usamos: `lista.reverse()`.
+
+## Tuplas
+
+- A diferencia de las listas que son dinámicas y que puedes agregar o quitar elementos y por ende necesiten más memoria para mantener a estas litas, tenemos a las tuplas que son estáticas, es decir no puedes quitar ni agregar elementos (**inmutable**).
+- La ejecución también es mucho más rápida con tuplas que con listas.
+- Se representan con paréntesis en vez de corchetes.
