@@ -95,3 +95,11 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - A diferencia de las listas que son dinámicas y que puedes agregar o quitar elementos y por ende necesiten más memoria para mantener a estas litas, tenemos a las tuplas que son estáticas, es decir no puedes quitar ni agregar elementos (**inmutable**).
 - La ejecución también es mucho más rápida con tuplas que con listas.
 - Se representan con paréntesis en vez de corchetes.
+
+## Diccionarios
+
+- A diferencia de lo visto anteriormente los direccionarios se componen de dos partes: una llave y su respectivo elemento tal cual se muestra, `diccionario = {llave: elemento}`.
+- Para un elemento en particular de mi diccionario: `diccionario[llave]`.
+- Para acceder a las llaves mediante un ciclo **for** utilizamos `diccionario.keys()`.
+- Para acceder a los elementos mediante un ciclo **for** utilizamos `diccionario.values()`.
+- Para acceder tanto a las llaves como a sus respectivos elementos en un **for** utilizamos `diccionario.items()`.
