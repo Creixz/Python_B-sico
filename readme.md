@@ -19,6 +19,7 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - Para convertir un entero o float a un string se usa:
     `numero = str(numero)`
 - Se puede usar la función `round(variable, nro_decimales)` para redondear la cantidad de decimales que tendrá el float.
+- Convertir una lista a un string con: `string = ''.join(lista)`
 
 ## Operadores Lógicos
 
