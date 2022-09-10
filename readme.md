@@ -104,3 +104,7 @@ el tipo de variable que se almacena es String, por lo que para convertir a integ
 - Para acceder a las llaves mediante un ciclo **for** utilizamos `diccionario.keys()`.
 - Para acceder a los elementos mediante un ciclo **for** utilizamos `diccionario.values()`.
 - Para acceder tanto a las llaves como a sus respectivos elementos en un **for** utilizamos `diccionario.items()`.
+
+## Imprimir en consola de forma concatenada con variables
+
+- Usar `print(f'El {variable} valor es {valor2}')`
